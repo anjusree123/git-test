@@ -67,6 +67,7 @@
                             <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
                             <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
                         </div>
+</div>
                     </form>
 
 
@@ -90,13 +91,109 @@
 <div class="col-12 col-sm col-sm-6 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
 
-<button type="button" class="col-sm-6 btn-sm btn-warning" data-toggle="tooltip" data-html="true" 
-title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom" href="#reserveform"><a href="#A">Reserve Table</a></button>
+
+
+
+<a href="#" class="btn col-sm-6 btn-sm btn-warning" data-toggle="modal" data-target="#myModalReservation">
+  Reserve Table
+</a>
+
+    <div id="myModalReservation" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"><strong>Reserve A Table </strong></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="col-12 col-sm">
+      <div class="modal-body">
+
+ <form>
+
+<div class="form-group">
+<div class="row">
+    <label for="rad" class=" col-3">Number of Guests</label>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    1
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    2
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+   3
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    4
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    5
+  </label>
+</div>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+   6
+  </label>
+</div>
+</div>
+<p></p>
+<div class="row">
+<label for="rad" class=" col-3">Section</label>
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-success active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-Smoking
+  </label>
+  <label class="btn btn-danger">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+  </label>
+</div>
+</div>
+<div class="row">
+<p></p>
+</div>
+<div class="row" class="col-12 col-sm">
+    <label for="dateandtime" class="col-3">Date and Time</label>
+    <div class="col-3" >
+       <input type="text" class="form-control" placeholder="Date">
+    </div>
+    <div class="col-3">
+    <input type="text" class="form-control" placeholder="Time">
+    </div>
+  </div>
+
+</form>
+  </div>    
+      <div class="modal-footer col-6">
+        <button type="button" class="col-3 col-3 col-3 btn btn-secndary">Cancel</button>
+        <button type="button" class="col-3 col-3 col-3 btn btn-primary " data-dismiss="modal">Reserve</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="col-12 col-sm">
                 </div>
-            </div>
+  </div>
         </div>
+
+              
     </header>
 
     <div class="container">
@@ -221,85 +318,6 @@ title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom
         </div>
 
 
-<div class="container">
-<a name="A"></a>
-<div class="col d-flex justify-content-center">
-<div class="card col-sm-6 card-center">
-<h3 class="card-header bg-warning text-white">Reserve A Table</h3>
-<div class="card-body">
-<form>
-<dl class="row col-sm">
-<dt class="col-12 col-sm">Number of guests</dt>
-<dd class="col-9">
-
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-  <label class="form-check-label" for="exampleRadios1">
-    1
-  </label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-    2
-  </label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-   3
-  </label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-    4
-  </label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-    5
-  </label>
-</div>
-
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-   6
-  </label>
-</div>
-</dd>
-<dt class="col-12 col-sm ">Date and Time</dt>
-<dd class="col-9">
-
-  <div class="row">
-    <div class="col-9">
-      <input type="text" class="form-control" placeholder="Date">
-    </div>
-    <div class="col-9">
-      <input type="text" class="form-control" placeholder="Time">
-    </div>
-  </div>
-
-
-</dd>
-<dt class="col-3"></dt>
-<dd class="col-9">
-
-<button type="button" class="btn btn-primary">Reserve</button>
-
-</dd>
-</dl>
-</form>
-</div>
-</div>
-
-</div
-
-</div>
-</div>
-</div>
 
     <footer class="footer">
         <div class="container">
@@ -340,17 +358,16 @@ title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
            </div>
-        </div>
+       </div> 
     </footer>
  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script>
-$(document).ready(function(){
-$('[data-toggle="tooltip"]').tooltip();
-});
-</script>
+
+
+
+
 </body>
 
 
