@@ -51,6 +51,25 @@ body{
     border-bottom: 1px solid $lt-gray;
     padding: 10px;
 }
+.modal-title {
+    color: #FFFAF0; 
+}
+.modal-header{
+background-color: #512DA8;
+}
+
+.modal-content {
+color: black;
+background-color: #D8BFD8;
+}
+.close {
+    color: #fff; 
+    opacity: 1;
+}
+
+
+
+
 .carousel {
     background:$background-dark;
 
